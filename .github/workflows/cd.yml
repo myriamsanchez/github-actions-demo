@@ -1,8 +1,9 @@
-name: Continuous Deployment Workflow
+name: Continous Deployment Workflow
 
-on: 
+on:
   push:
-    - master
+    branches:
+      - master
 
 jobs:
   cd:
